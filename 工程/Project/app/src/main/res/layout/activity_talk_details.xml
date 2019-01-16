@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".TalkDetailsActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/home_details"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/title_background"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/talk_details_title_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@mipmap/toolbar_back"/>
+
+        <TextView
+            android:id="@+id/home_details_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/tab_title_talk"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_marginRight="50dp"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=" “最有味道”的视察新进展：住建旅游部门回应委员建议"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" 2018-06-29 15:29         来源：川报观察"
+                android:textColor="#FFA19A9A"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"/>
+
+            <ImageView
+                android:id="@+id/imageview1"
+                android:layout_width="fill_parent"
+                android:layout_height="180dp"
+                android:background="@mipmap/talk_details" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text=" 川报观察记者 陈婷"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text=" 6月28日中午，成都市锦里路附近府南河边的绿道上，省政协委员、德阳市住房公积金管理中心主任赵晓平走进一座公厕，随机检查了几个厕位，发现“没有提供免费厕纸”。
+“德阳旌湖边的公厕也是这样，经常走进去都找不到免费厕纸。有急需的人遇到这种情况，该是多么尴尬！”赵晓平说。
+赵晓平是专程赶来参加当天举行的四川省政协“推进旅游区厕所革命”视察监督情况意见反馈会的。"
+                android:textColor="#FF3E3E3E"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="【视察背景】"
+                android:textColor="#FF2861DA"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="据视察组掌握的数据，全省已完成新改建厕所9574座，其中城乡公共厕所5055座、景区景点厕所4309座（占全国新增总数6.8万座的6.3%）、交通厕所210座。
+        视察组了解到，我省成立了“厕所革命”工作协调组，统筹推进“厕所革命”工作。省里先后出台《四川省“厕所革命”实施方案（2017-2020年）》《“交通+旅游”融合发展专项行动计划（2017-2020年）》《四川省旅游厕所建设管理三年行动计划（2018-2020）》。
+        “公共厕所建设工程”被列入省政府“2018年全省十项民生工程及20件民生实事实施方案”。
+省旅游发展委、住房城乡建设厅等部门还通过建立联合督查机制、结合A级旅游景区和旅游度假区评定等方式，确保“厕所革命”政策落地任务落实。
+委员们一致认为，四川旅游区“厕所革命”工作阶段性成效显著，全省旅游区厕所建设、管理和服务水平得到了较快提升，“厕所革命”对景区、地区形象面貌和人居环境带来了巨大影响。"
+                android:textColor="#FF3E3E3E"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="【“厕所革命”是小题大做？  建议：防止“三看”】"
+                android:textColor="#FFB1182A"
+                android:textSize="15sp"
+                android:layout_weight="0.00"
+                android:maxLines="1"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="视察发现，部分地方没有从全局的高度认识到抓旅游区“厕所革命”就是抓旅游大发展、抓乡村文明、抓民生大事，甚至片面认为“旅游区厕所”就是“旅游厕所”、就是旅游部门抓的厕所，在协同推进上没有形成有效机制。
+委员们建议，要深化认识，树立正确的厕所观、工作观，防止“三看”。
+一不要“看低”。要在巩固成果基础上，研究制定加快旅游区“厕所革命”的指导意见和政策措施，将旅游区“厕所革命”纳入对地方政府目标考核范围，层层压实责任。
+二不要“看轻”。要建立住建、旅游、交通、农业多部门协同推进工作机制，进一步细化明确旅游区厕所建设、管理和服务标准。积极开展宣传教育，大力倡导文明如厕。
+三不要“看偏”。委员们认为，旅游区“厕所革命”是我省打造世界重要旅游目的地的一个重要抓手和杠杆，更是城乡文明建设的重要方面。要用好这个抓手和杠杆，既抓好景区、城市厕所，更抓好农村、山区厕所，全力补齐短板，助力乡村振兴。"
+                android:textColor="#FF3E3E3E"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="【“缺口”大欠账多？ 对策：坚持“三个理念”科学规划】"
+                android:textColor="#FFB1182A"
+                android:textSize="15sp"
+                android:maxLines="1"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="据统计，全省城市（含县城）公厕缺口比例高达40%，仅有4个市（州）基本达到城镇居住用地公厕设置要求。部分国省干道、重点旅游线路沿线厕所数量偏少。
+委员们给出对策——充分考虑旅游景区、旅游线路沿线、交通集散点、旅游餐馆、旅游娱乐场所、休闲步行区等区域的实际情况和使用需求，将旅游区厕所规划与城乡、旅游、交通规划等结合起来，制定出台工作方案和标准规范，明确任务目标。
+委员们强调，科学规划要体现“三个理念”：
+人本理念——如通过提高女性厕位比例，设计兼顾不同年龄群的洗手台，注重防滑设计等，切实增强各类群体如厕便利性和舒适性。
+旺季增添移动厕所，着重解决高峰期供不应求问题。合理设置旅游厕所指示标志，提升群众、游客找公厕、用公厕的快捷性和精确度。
+文化理念——厕所设计与当地地域特色、民俗文化、建筑风格等相融合，实现“融厕于景”。
+生态理念——旅游区内的农村应重点解决厕所数量不足、卫生不达标等问题，着力推广沼气技术利用。
+先行在生态敏感区域和规模较大村庄试点开展户用卫生厕所建设和改造，同步实施粪污治理，加快实现无害化卫生厕所全覆盖。
+三州地区高寒、缺水，应积极推广节水节能、抗冻除臭等新技术。"
+                android:textColor="#FF3E3E3E"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="【设计建设标准不统一？对策：优化基本功能做到“三防”】"
+                android:textColor="#FFB1182A"
+                android:textSize="15sp"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="视察发现，旅游区厕所在标准化、特色化、现代化等方面还需加强，存在着旅游厕所数量与游客规模不协调、配套设施不完善、通风和无障碍设施不够优化等问题。
+委员们建议，规范建设旅游区厕所，要优化基本功能，也要做到“三防”。
+防止“千篇一律”：我省平原地区、丘陵地区、高原山区情况差异很大，旅游景区类型多样，要坚持从各地区实际出发，细化建设标准，分类施策，切忌招办模式、搞“一刀切”。
+防止过度豪华：在优化基本功能时，不盲目贪大求洋，杜绝建设豪华厕所。在建筑选料上要坚持节能环保、就地取材，突出便利耐用。
+防止过多内容：不追求厕所的多功能化。要坚持“方便、卫生、实用、安全”基本功能，充分利用现有设施，完善和提升厕所功能。"
+                android:textColor="#FF3E3E3E"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="【服务质量不优，资金短缺？对策：探索“所长制”和市场化管理】"
+                android:textColor="#FFB1182A"
+                android:textSize="15sp"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="回忆一下你去过的旅游区厕所，里面耗品是否定时补充？卫生能不能实时保洁？破烂有没有及时维修？
+如果答案是否定的，那么这些现象正是视察组所指出的问题：管理水平不高、服务质量不优、人文关怀不够。
+管理者往往担心：“有些人一次取走很多免费厕纸，抬高了厕所运行成本。”
+怎么办？
+委员们建议，推行建立旅游厕所管理责任制和厕所管理服务市场化。
+一方面，进一步完善旅游区厕所管理、服务和使用规范标准，借鉴“河长制”“湖长制”经验，探索建立旅游厕所“所长制”，将旅游区厕所建设、管理达标与否作为旅游景区、风景名胜区级别评定的重要依据。
+另一方面，坚持政府补贴和市场运作相结合，将旅游厕所管理维护委托第三方，培植厕所经营管理公司新业态。"
+                android:textColor="#FF3E3E3E"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="【政府部门回应：意见照单全收，抓好整改】"
+                android:textColor="#FFB1182A"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

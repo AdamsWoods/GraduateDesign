@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/slidemenu_records"
+        android:icon="@mipmap/slidemenu_recodes"
+        android:title="@string/slidemenu_records" />
+    <item
+        android:id="@+id/slidemenu_subscribe"
+        android:icon="@mipmap/slidemenu_subscribe"
+        android:title="@string/slidemenu_subscribe" />
+    <item
+        android:id="@+id/slidemenu_collete"
+        android:icon="@mipmap/slidemenu_collete"
+        android:title="@string/slidemenu_collete" />
+    <item
+        android:id="@+id/slidemenu_set"
+        android:icon="@mipmap/slidemenu_set"
+        android:title="@string/slidemenu_set" />
+    <item
+        android:id="@+id/slidemenu_login"
+        android:icon="@mipmap/slidemenu_login"
+        android:title="@string/slidemenu_login" />
+
+</menu>

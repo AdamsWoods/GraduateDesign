@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="MyAppTheme">
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <!--<item name="actionOverflowButtonStyle">@style/OverflowButtonStyle</item>-->
+    </style>
+
+    <!--<style name="OverflowButtonStyle" parent="@android:style/Widget.ActionButton.Overflow">-->
+        <!--<item name="android:background">@mipmap/toolbar_add</item>-->
+    <!--</style>-->
+</resources>

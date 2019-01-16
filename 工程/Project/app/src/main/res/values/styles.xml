@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <!--<item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>-->
+    </style>
+
+    <!--<style name="OverflowButtonStyle" parent="@android:style/Widget.ActionButton.Overflow">-->
+        <!--<item name="android:src">@mipmap/add</item>-->
+    <!--</style>-->
+
+</resources>

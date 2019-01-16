@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:descendantFocusability="beforeDescendants">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_card_background_selector"
+        android:descendantFocusability="afterDescendants"
+        android:paddingBottom="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="2dp">
+
+            <TextView
+                android:id="@+id/item_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/list_home_item_srouce"
+                android:textColor="@color/list_home_item"
+                android:textSize="12sp"
+                android:layout_marginTop="1dp"/>
+
+            <!--<TextView-->
+                <!--android:id="@+id/list_home_item_time"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/list_home_item_time"/>-->
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/item_img"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

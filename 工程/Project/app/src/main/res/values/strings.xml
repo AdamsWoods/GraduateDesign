@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">川报观察</string>
+    <string name="tab_title_home">首页</string>
+    <string name="tab_title_talk">专题</string>
+    <string name="tab_title_discovery">发现</string>
+    <string name="tab_title_newspaper">日报</string>
+    <string name="slidemenu_records">浏览记录</string>
+    <string name="slidemenu_subscribe">我的订阅</string>
+    <string name="slidemenu_collete">我的收藏</string>
+    <string name="slidemenu_set">设置</string>
+    <string name="slidemenu_login">登录</string>
+    <string name="list_home_item_tv">全面推动高质量发展，四川省委通过这个决定！快看你家乡新定位！</string>
+    <string name="list_home_item_srouce">来源：川报观察</string>
+    <string name="list_home_item_time">2天前</string>
+    <string name="list_talk_item_title">成都暴雨万名美团小哥坚持送餐，网友：我敬他是条汉子！</string>
+    <string name="list_discovery_item_title">德邦2018战略发布会在京举行，承诺将每一份大件快递送货上门</string>
+    <string name="slidemenu_introdaction">优质原创独家深度报道.</string>
+    <string name="newspaper_title">四川日报</string>
+    <string name="talk_details_comment">请输入评论内容</string>
+    <string name="talk_details_send">发送</string>
+    <string name="home_details_title">新闻快讯</string>
+
+</resources>

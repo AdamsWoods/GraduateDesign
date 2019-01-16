@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android602_4.NewsPaperDetailsActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/home_details"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/title_background"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/news_details_title_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@mipmap/toolbar_back" />
+
+        <TextView
+            android:id="@+id/discovery_details_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/newspaper_title"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_marginRight="50dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="14sp"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
