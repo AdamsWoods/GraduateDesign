@@ -6,15 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/atctivity_na"
-    tools:context="com.android602_4.MainActivity">
+    tools:context="com.example.MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-        <include layout="@layout/activity_title"/>
-
+    <include layout="@layout/activity_title"/>
 
         <android.support.v4.view.ViewPager
             android:id="@+id/viewpager"

@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="com.android602_4.LoginActivity">
+    tools:context="com.example.LoginActivity">
 
     <!-- Login progress -->
     <ProgressBar

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorPrimary"
-    tools:context="com.android602_4.fragment.FregmentHome">
+    tools:context="com.example.fragment.FregmentHome">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/discovery_list"

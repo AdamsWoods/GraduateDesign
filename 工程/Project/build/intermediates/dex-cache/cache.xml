@@ -2,31 +2,13 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\1\Desktop\Android602_4\Project\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\AllAboutMyCode\androidProject\Graduate\Project\hotimglibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="C:\Users\1\Desktop\Android602_4\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_275971105d7d189b81402b27514854eb4ea7f9e9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\1\Desktop\Android602_4\Project\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b48e9c1d105103b3c5f6fcdd01d8b6b09ebfe474">
-        <dex dex="C:\Users\1\Desktop\Android602_4\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d2cbd1b956fb7b99dde6a6efbb47af85a690a75f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\1\Desktop\Android602_4\Project\app\libs\nineoldandroids-2.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
-        <dex dex="C:\Users\1\Desktop\Android602_4\Project\app\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids-2.4.0_62aeb96af9f87f953caeb81e2a9e509204bf4fe1\classes.dex" />
+        revision="28.0.3"
+        sha1="b1dc496eaeb879caa258b4f0c12015ad880d0bfd">
+        <dex dex="F:\AllAboutMyCode\androidProject\Graduate\Project\app\build\intermediates\pre-dexed\debug\classes_ac2718bad6892db7a0eb079467d172f9894c31b0.jar" />
     </item>
 
 </items>

@@ -33,9 +33,9 @@
                 android:textSize="14sp"/>
 
             <TextView
+                android:id="@+id/from_home"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/list_home_item_srouce"
                 android:textColor="@color/list_home_item"
                 android:textSize="12sp"
                 android:layout_marginTop="1dp"/>

@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion '25.0.2'
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
     defaultConfig {
         applicationId 'com.adamwoods.android602_4'
         minSdkVersion 15
-        targetSdkVersion 25
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -26,13 +26,23 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile files('libs/nineoldandroids-2.4.0.jar')
     compile project(':hotimglibrary')
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.android.support:design:25.3.1'
-    compile 'com.android.support:recyclerview-v7:25.3.1'
-    compile 'com.jakewharton:butterknife:7.0.1'
-    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.android.support:appcompat-v7:28.0.0'
+    compile 'com.android.support.constraint:constraint-layout:1.1.3'
+    compile 'com.android.support:design:28.0.0'
+    compile 'com.android.support:recyclerview-v7:28.0.0'
+    compile 'com.jakewharton:butterknife:8.8.1'
+    compile 'com.android.support:cardview-v7:28.0.0'
+    compile 'com.zhy:okhttputils:2.6.2'//网络请求
+    compile 'com.squareup.okio:okio:1.13.0'//网络请求依赖
+    compile 'com.alibaba:fastjson:1.1.54.android'//json数据解析
+    //网络图片加载
+    compile ('com.github.bumptech.glide:glide:4.4.0@aar'){transitive = true}
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.4.0'
     testCompile 'junit:junit:4.12'
+    //tab layout
+    compile 'com.android.support:support-v4:28.0.0'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.flyco.roundview:FlycoRoundView_Lib:1.1.2@aar'
+    compile 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.0@aar'
 }
