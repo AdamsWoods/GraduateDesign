@@ -1,0 +1,101 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.mob.sdk'
+
+MobSDK {
+    appkey "29d76bab8c427"
+    appSecret "9cbef7177cd2637b0f0bd9a9159e03b6"
+
+    SMSSDK {
+    }
+
+    ShareSDK {
+        devInfo {
+            SinaWeibo {
+                appKey "257150a36a59c"
+                appSecret "083967ab418ef61645471141f32e2418"
+                callbackUri "http://www.sharesdk.cn"
+                shareByAppClient false
+            }
+            Wechat {
+                appId "257150a36a59c"
+                appSecret "083967ab418ef61645471141f32e2418"
+            }
+            QQ {
+                appId "257150a36a59c"
+                appKey "083967ab418ef61645471141f32e2418"
+            }
+        }
+    }
+}
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.example.news"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+
+        ndk {
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters 'armeabi', 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64', 'mips', 'mips64'
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+        }
+
+        manifestPlaceholders = [
+                JPUSH_PKGNAME: applicationId,
+                JPUSH_APPKEY : "3a70881ae0342ebd03437658", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL: "developer-default", //暂时填写默认值即可.
+        ]
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+}
+
+dependencies {
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:support-vector-drawable:28.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //tablayout
+    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+    //okhttp网络
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    //glide图片加载
+    implementation 'com.github.bumptech.glide:glide:4.5.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.5.0'
+    //gson解析
+    implementation 'com.google.code.gson:gson:2.8.2'
+    //hotimgview依赖
+    implementation project(path: ':hotimglibrary')
+    //volley网络请求
+    implementation 'com.mcxiaoke.volley:library:1.0.19'
+    //视频播放
+    implementation 'cn.jzvd:jiaozivideoplayer:6.2.10'
+    //retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    //rxjava
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.3.0'
+    //rxandroid
+    implementation 'io.reactivex:rxandroid:1.2.1'
+    //极光推送
+    implementation 'cn.jiguang.sdk:jpush:3.1.1'  // 此处以JPush 3.1.1 版本为例。
+    implementation 'cn.jiguang.sdk:jcore:1.1.9'  // 此处以JCore 1.1.9 版本为例。
+    //view
+    implementation('de.psdev.licensesdialog:licensesdialog:1.8.1')
+}
